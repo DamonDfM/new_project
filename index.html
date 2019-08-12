@@ -13,26 +13,63 @@
 			width: 100%;
 			background-color: #FF0000;
 		}
+		.table1 {
+			border: 8px solid;
+      padding-bottom: 19px;
+			margin-top: 15px;
+			border-color: #002C00 #008000 #008000 #002C00;
+			display: inline-block;
+			float: left;
+		}
+		.onecell_1 {
+			padding-top: 39px;
+			padding-left: 21px;
+		}
+		.crutch_1 {
+			width: 110px;
+		}
+		.threecell_1 {
+			padding-left: 20px;
+		}
+		.fourcell_1 {
+			padding-right: 50px;
+		}
+		.fourcell_1 ul {
+			text-align: right;
+			list-style-type: none;
+		}
 	</style>
 </head>
 <body>
 	<div class="main">
 		<h1>Заготовка под визуальное оформление</h1>
-		<table class="t1" border="1">
+		<table class="table1">
 			<tr>
-				<td colspan="2">Окно первого персонажа Borg</td>
+				<td class="onecell_1">Окно первого персонажа Borg</td>
+				<td class="crutch_1"></td>
+				<td></td>
 			</tr>
 			<tr>
-				<td>
+				<td class="threecell_1">
 					<ul>
 						<li>Здоровье</li>
 						<li>Сила</li>
 						<li>Наличие отсутствия</li>
 					</ul>
 				</td>
-				<td></td>
+				<td class="crutch_1"></td>
+				<td class="fourcell_1">
+					<ul>
+						<li>200</li>
+						<li>20</li>
+						<li>СВД</li>
+					</ul>
+				</td>
 			</tr>
 		</table>
+		<form action="#">
+			<input type="button" value="">
+		</form>
 	</div>
 </body>
 </html>

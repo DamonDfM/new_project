@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Museo 700';
+	src: url('../fonts/Museo 700.woff') format('woff'),
+			 url('../fonts/Museo 700.woff2') format('woff2');
+	font-style: normal;		
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans.woff') format('woff'),
+			 url('../fonts/OpenSans.woff2') format('woff2');
+	font-style: normal;
+	font-weight: normal;		 
+}
+
+@font-face {
+	font-family: 'SignikaNegative';
+	src: url(../fonts/SignikaNegative.woff) format('woff'),
+			 url(../fonts/SignikaNegative.woff2) format('woff2');
+	font-style: normal;
+	font-weight: normal;		 
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/OpenSans-Bold.woff') format('woff'),
+	     url('../fonts/OpenSans-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+	font-family: 'OpenSansSemibold';
+	src: url('../fonts/OpenSansSemibold.woff') format('woff'),
+	     url('../fonts/OpenSansSemibold.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 600;     
+}
+
+@font-face {
+	font-family: 'SignikaNegative-Semibold';
+	src: url('../fonts/SignikaNegative-Semibold.woff') format('woff'),
+	     url('../fonts/SignikaNegative-Semibold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'TektonPro-BoldCond';
+	src: url('../fonts/TektonPro-BoldCond.woff') format('woff'),
+			 url('../fonts/TektonPro-BoldCond.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;		 
+
+}
+
+body {
+	background-color: #ffffff;
+}
+
+header {
+	border: 1px solid black;
+	width: 960px;
+	height: 104px;
+	margin: 0 auto;
+}
+
+.logo {
+	border: 1px solid black;
+	margin-top: 66px;
+}

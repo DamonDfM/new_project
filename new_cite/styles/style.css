@@ -60,28 +60,37 @@ body {
 }
 
 header {
-	border: 1px solid black;
 	width: 960px;
 	height: 104px;
 	margin: 0 auto;
 }
 
 .logo {
-	border: 1px solid black;
 	margin-top: 66px;
 }
-ul {
-	list-style: none;
-	margin: 0 auto;
+
+.top_menu {
+	display: block;
+	float: right;
 }
-a {
+.top_menu ul {
+	list-style: none;
+	display: flex;
+	padding-top: 70px;
+}
+
+.top_menu a {
 	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+	display: block;
 	font-family: 'SignikaNegative', sans-serif;
 	font-size: 13px;
 	color: #003764;
 }
-.top_menu {
-	display: block;
-	width: 569px;
-	float: right;
+
+.top_menu a:hover {
+	border-top: 12px solid #0e57a1;
+	padding-top: 58px;
+	color: #0e57a1;
 }

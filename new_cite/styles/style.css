@@ -56,42 +56,49 @@
 
 body {
 	background-color: #ffffff;
+	margin: 0;
 }
 
 header {
 	width: 960px;
-	height: 104px;
 	margin: 0 auto;
+	background-color: rgba(235, 136, 136, 0.5);
 }
 
 .logo {
-	margin-top: 66px;
+	display: inline-block;
+	width: 18%;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
-.top_menu {
-	display: block;
-	float: right;
+.top_mnu {
+	display: inline-block;
+	border: 1px solid #ffffff;
+	vertical-align: top;
+	margin-left: 110px;
 }
-.top_menu ul {
+
+.top_mnu ul {
 	list-style: none;
-	display: flex;
-	padding-top: 70px;
+	padding: 0;
+	margin: 0;
 }
 
-.top_menu a {
-	text-decoration: none;
-	padding-right: 25px;
-	padding-left: 25px;
-	display: block;
-	font-family: 'SignikaNegative', sans-serif;
-	font-size: 13px;
+.top_mnu ul li {
+	display: inline-block;
+}
+
+.top_mnu ul li a {
 	color: #003764;
-}
-
-.top_menu a:hover {
-	border-top: 12px solid #0e57a1;
-	padding-top: 58px;
-	color: #0e57a1;
+	display: block;
+	font-family: "SignikaNegative", sans-serif;
+	font-size: 13px;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 20px;
+	text-decoration: none;
 }
 
 .banner {

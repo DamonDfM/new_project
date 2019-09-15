@@ -134,5 +134,12 @@ header {
 
 .nav_mnu ul li a {
 	display: block;
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	vertical-align: center;
+	width: 50px;
+	margin-right: 1px;
+	background-color: rgba(255, 255, 255, 0.1);
 }
+

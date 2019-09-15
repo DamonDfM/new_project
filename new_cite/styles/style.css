@@ -143,3 +143,24 @@ header {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
+.nav_mnu ul li .active {
+	background-color: #8eb61c;
+}
+
+.info {
+	width: 405px;
+}
+
+.sumap {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "SignikaNegative-Semibold", sans-serif;
+	margin-top: 50px;
+}
+
+.sumap+p {
+	color: #ffffff;
+	font-family: "SignikaNegative", sans-serif;
+	font-size: 14px;
+}

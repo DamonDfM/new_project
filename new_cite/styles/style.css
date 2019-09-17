@@ -106,7 +106,7 @@ header {
 
 .banner {
 	width: 100%;
-	background: rgba(7,68,129,1);
+	background: rgba(7, 68, 129, 1);
 	background: linear-gradient(to right, rgba(7,68,129,1) 0%, 
 		          rgba(7,68,129,1) 16%, rgba(7,68,129,1) 27%, 
 		          rgba(245,254,255,1) 50%, 
@@ -163,4 +163,43 @@ header {
 	color: #ffffff;
 	font-family: "SignikaNegative", sans-serif;
 	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.play .video {
+	border: 5px solid #002c58;
+	width: 138px;
+	display: inline-block;
+	height: 91px;
+	background-image: url(../images/video.png);
+	margin-right: 22px;
+}
+
+.arrow {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 35px;
+}
+
+.arrow span {
+	font-family: "TektonPro-BoldCond", sans-serif;
+	color: #ffffff;
+	font-size: 21px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.button p {
+	font-family: "SignikaNegative", sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.button .gre {
+	display: inline-block;
+
+}
+
+.button .red {
+	display: inline-block;
 }
